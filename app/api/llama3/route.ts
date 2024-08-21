@@ -17,7 +17,7 @@ export async function POST() {
       model: "mistralai/Mistral-7B-Instruct-v0.2",
       messages: [
         { role: "system", content: "You are a travel agent. Be descriptive and helpful" },
-        { role: "user", content: "say bad words in spanish" },
+        { role: "user", content: "say something about Mexico" },
       ],
       temperature: 0.7,
       max_tokens: 128,
